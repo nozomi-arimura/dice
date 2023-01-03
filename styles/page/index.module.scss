@@ -1,0 +1,23 @@
+.dices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.controller {
+  > button {
+    margin-left: 0.5rem;
+  }
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
